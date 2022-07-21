@@ -1,0 +1,81 @@
+@charset "UTF-8";
+
+body{
+		padding:5px;
+		margin:5px;
+	 }	
+table.box2 {
+	border-collapse: collapse;
+	border: 1px solid black;
+	}
+td,th{
+	border:1px solid black;
+}
+th {
+	text-align: center;
+}
+
+p#not {
+	text-align: center;
+	font-size: larger;
+	font-weight: bold;
+}
+body, td, th, span, p{
+	font-family: 'nanum gothic', 맑은 고딕, 한컴돋움, 돋움;
+	font-size: 0.9em;
+	color:#555555;
+}
+	
+td, th{
+	padding:4px;
+}
+
+a:link{color:#555555;text-decoration:none}
+a:visited{color:#555555;text-decoration:none}
+a:hover{color:#047CC1;text-decoration:underline;}
+a:active{color:#047CC1;text-decoration:underline;}
+
+input,Textarea, select {
+    font-family:'nanum gothic', 맑은 고딕, 한컴돋움, 돋움;
+	font-size: 0.9em;
+	color:#555555;
+}
+
+table{
+	margin: 0;
+	padding: 0;
+	border-collapse: collapse;
+}
+
+table.box, table.box2{
+	
+margin-left: 45px;	
+border: solid silver 1px;
+border-collapse: collapse;
+}
+
+table.box2 th{
+	background-color: #28C637;
+	border: solid silver 1px;
+	color: white;
+}
+
+table.box2 td{
+	border: solid silver 1px;	
+}
+
+td.line
+{
+	border-bottom:solid 1px silver;
+}
+.noticeAll {padding-left: 15%;padding-right: 10%;}
+
+.divPage {text-align: center;}
+.tit {
+	font-size: x-large;
+	font-weight: bold;
+	color: limegreen;
+	padding-top: 25px;
+	padding-bottom: 21px;
+	padding-left: 350px;
+}
